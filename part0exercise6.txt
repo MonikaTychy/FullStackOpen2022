@@ -1,0 +1,3 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server->browser: json
+//browser send POST request wita new note with data provided in json. Websiteis not reloading, it doesn't make any more request, it executes js - code to push data to server and then to show it on the page.
